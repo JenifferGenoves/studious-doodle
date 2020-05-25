@@ -10,14 +10,14 @@ console.log(selectedColors[0]);
 // (3) ["red", "blue", "green"]
 
 // Así como el tamaño del array puede variar, lo mismo ocurre con el tipo. Ahora tenemos un objeto con 2 string  y 1 número
-let selectedColors = ['red', 'blue'];
+//let selectedColors = ['red', 'blue'];
 selectedColors[2] = 1;
 
 console.log(selectedColors);
 
 // Como los objetos así como el tamaño en el Array son dinámicos; tecnicamnete un Array es un Objeto en Js
 
-let selectedColors = ['red', 'blue'];
+//let selectedColors = ['red', 'blue'];
 selectedColors[2] = 1;
 typeof selectedColors // "object"
 
@@ -60,5 +60,24 @@ greet('Jhon', 'Smith');
 
 // TYPES OF FUNTIONS
 
+// Performing at Task: Mostrar algo en la consola
+
+function greet (name, lastName) {
+    console.log('Hello ' + name + ' ' + lastName);
+    
+}
+
+// Calculating a value
+
+function square(number) {
+    return number * number;
+}
+
+// let number = square(2);
+// console.log(number);
+
+// No necesariamente debemos declarar una variable separada, puedo hacer lo sgte:
+
+console.log(square(2));
 
 

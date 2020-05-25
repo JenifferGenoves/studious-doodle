@@ -252,5 +252,27 @@ greet('Jhon', 'Smith');
 
 ### 3.1) TYPES OF FUNCTIONS
 
+Performing at Task: Mostrar algo en la consola
 
+function greet (name, lastName) {
+    console.log('Hello ' + name + ' ' + lastName);
+    
+}
 
+// Calculating a value
+
+function square(number) {
+    return number * number;
+}
+
+let number = square(2);
+console.log(number);
+
+No necesariamente debemos declarar una variable separada, puedo hacer lo sgte:
+
+console.log(square(2));
+
+Funciones de llamada: square: Es una función de llamada y Console.log: También lo es
+
+* Las Funciones son un conjunto de declaraciones que realizan una tarea o calcula y devuelve un valor.
+En el mundo real, es esencialmente una colección de miles de funciones que trabajan juntas para proporcionar funcionalidad a la aplicación.
